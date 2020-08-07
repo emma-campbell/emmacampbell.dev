@@ -1,29 +1,12 @@
 # emmacampbell.dev
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Colors
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+|Color|
+|:---:|
+|#0B132B|
+|#1C2541|
+|#3A506B|
+|#5BC0BE|
+|#6FFFE9|

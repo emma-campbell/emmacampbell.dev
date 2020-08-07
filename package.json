@@ -9,11 +9,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mdi/font": "^5.4.55",
+    "buefy": "^0.8.20",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-scrollto": "^2.18.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
