@@ -13,7 +13,9 @@
             <a href="https://www.linkedin.com/in/ecampbellur">
               <b-icon id="home__icon" pack="fab" icon="linkedin" size="is-large"></b-icon>
             </a>
-            <a href="https://drive.google.com/file/d/1pvA0tKpRvcvxEXkcw2KuSn7ZLRT7S_YY/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1pvA0tKpRvcvxEXkcw2KuSn7ZLRT7S_YY/view?usp=sharing"
+            >
               <b-icon id="home__icon" pack="fas" icon="file" size="is-large"></b-icon>
             </a>
           </div>
@@ -27,9 +29,6 @@
 <style>
 .hero-body {
   padding: 0em;
-  margin: 8em 12em;
-  max-width: 1000px;
-  border: 2px solid #6fffe9;
   z-index: 1;
 }
 
