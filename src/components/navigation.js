@@ -29,8 +29,8 @@ const Nav = () => {
               <Link className={navStyles.navlink} to="/#blog">
                 <h2 className="text-white">blog</h2>
               </Link>
-              <Link className={navStyles.navlink} to="/#contact">
-                <h2 className="text-white">contact</h2>
+              <Link className={navStyles.btn} to="/#contact">
+                contact
               </Link>
             </div>
           </div>

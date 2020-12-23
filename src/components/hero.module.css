@@ -1,0 +1,9 @@
+.topwave {
+    position:relative;
+    top: -8rem;
+}
+
+.bottomwave {
+    position: absolute;
+    top: 22rem;
+}
