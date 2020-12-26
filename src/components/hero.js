@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="bg-green-200 overflow-hidden">
       <div className="max-w-7xl mx-auto xl:pt-20 lg:pt-16 md:pt-8 sm:pt-4 pb-0">
-        <div className="relative z-10 flex items-center justify-center">
+        <div className="relative z-10 flex items-center justify-center pb-0">
           <div className="grid xl:grid-cols-2 sm:grid-cols-1 sm:gap-8 flex items-center justify-center">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-5xl tracking-tight text-white">
@@ -17,13 +17,13 @@ const Hero = () => {
                   My name is <b>Emma Campbell</b>
                 </span>
               </h1>
-              <p className="tracking-tight text-white pt-3">
+              <p className="tracking-tight text-white pt-3 text-2xl">
                 <span className="block inline">
-                  Computer Science Student focued in Human-Computer
+                  Computer Science Student focused in Human-Computer
                 </span>
                 <br />
               </p>
-              <p className="tracking-tight text-white">
+              <p className="tracking-tight text-white text-2xl">
                 <span className="block inline">Interaction</span>
                 <br />
               </p>
@@ -42,7 +42,6 @@ const Hero = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
-          className={heroStyles.topwave}
         >
           <path
             fill="#242728"

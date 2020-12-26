@@ -23,11 +23,11 @@ const Nav = () => {
               <Link className={navStyles.navlink} to="/#about">
                 <h2 className="text-white">about</h2>
               </Link>
-              <Link className={navStyles.navlink} to="/#portfolio">
-                <h2 className="text-white">portfolio</h2>
+              <Link className={navStyles.navlink} to="/#projects">
+                <h2 className="text-white">projects</h2>
               </Link>
               <Link className={navStyles.navlink} to="/#blog">
-                <h2 className="text-white">blog</h2>
+                <h2 className="text-white">articles</h2>
               </Link>
               <Link className={navStyles.btn} to="/#contact">
                 contact
