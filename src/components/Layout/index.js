@@ -9,7 +9,7 @@ const Layout = ({children}) => {
         <Sidebar/>
       </aside>
 
-      <main className="w-screen h-screen">
+      <main className="w-screen h-screen overflow-hidden">
         {children}
       </main>
     </div>
