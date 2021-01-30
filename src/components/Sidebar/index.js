@@ -24,9 +24,6 @@ const Sidebar = () => {
           <Link className={sidebarStyles.navlink} to="/projects">
             <h1 className="text-lg font-normal text-gray-400 hover:text-gray-600 focus:text-gray-600">projects</h1>
           </Link>
-          <Link className={sidebarStyles.navlink} to="/contact">
-            <h1 className="text-lg font-normal text-gray-400 hover:text-gray-600 focus:text-gray-600">contact</h1>
-          </Link>
         </nav>
       </div>
     </div>
