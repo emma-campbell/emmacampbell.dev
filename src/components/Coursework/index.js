@@ -4,8 +4,8 @@ import Card from "./Card"
 
 const Coursework = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="flex-col mx-6 my-6">
+    <div className="flex items-center justify-center h-screen my-72 md:my-0">
+      <div className="flex-col p-8 md:p-0">
         {/* TITLE */}
         <h1 className="text-6xl font-medium">coursework</h1>
 
