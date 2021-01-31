@@ -11,7 +11,7 @@ const About = () => {
             about
           </span>
         </h1>
-        <p className="text-1xl max-w-lg tracking-tight">
+        <p className="text-1xl max-w-xl tracking-tight">
           <span className="block inline">
             I grew up in the digital age. I remember building HTML webpages when I was young
             -- and helping my parents, friends and family with all their electronics. Strangely enough
@@ -22,9 +22,10 @@ const About = () => {
         <div className="flex items-center justify-center">  
           <img 
             src={Headshot}
-            className="rounded-full w-64 h-64 shadow-md mt-6"/>
+            className="rounded-full w-64 h-64 shadow-md mt-6"
+            alt="Myself!"/>
         </div>
-        <div className="max-w-lg">  
+        <div className="max-w-xl">  
           <p className="text-1xl tracking-tight font-bold mt-6">
             <span className="block inline">
               education
