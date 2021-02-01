@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
       {navigation}
 
       {/* Main Content */}
-      <main className="w-screen h-screen md:overflow-hidden">{children}</main>
+      <main className="w-screen h-screen absolute md:relative md:overflow-hidden z-0">{children}</main>
     </div>
   )
 }
