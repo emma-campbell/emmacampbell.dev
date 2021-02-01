@@ -30,10 +30,9 @@ const Layout = ({ children }) => {
           </header>  
         </div>
         
-        <div className="hidden md:block">
-          <aside className="h-screen sticky top-0">
-            <Sidebar open={open}/>
-          </aside>
+        
+        <div className="h-screen sticky top-0">
+          <Sidebar open={open} setOpen={setOpen}/>
         </div>
       </>
     )
@@ -41,9 +40,9 @@ const Layout = ({ children }) => {
     navigation = (
       <>
         <div className="hidden md:block">
-          <aside className="h-screen sticky top-0">
-            <Sidebar open={!open}/>
-          </aside>
+          <div className="h-screen sticky top-0">
+            <Sidebar open={!open} setOpen={setOpen}/>
+          </div>
         </div>
       </>
     )

@@ -16,7 +16,7 @@ export const StyledBurger = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 10;
-  display: ${({ open }) => (open ? "none" : "flex")};
+  // display: ${({ open }) => (open ? "none" : "flex")};
   &:focus {
     outline: none;
   }
@@ -29,12 +29,23 @@ export const StyledBurger = styled.button`
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
+    :first-child {
+      transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
+    }
+    :nth-child(2) {
+      opacity: ${({ open }) => (open ? "0" : "1")};
+      transform: ${({ open }) => (open ? "translateX(20px)" : "translateX(0)")};
+    }
+    :nth-child(3) {
+      transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
+    }
   }
 `
 
 const Burger = ({open, setOpen}) => {
+  console.log(open)
   return (
-    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+    <StyledBurger aria-controls="sidebar" open={open} onClick={() => setOpen(!open)}>
       <div />
       <div />
       <div />

@@ -48,7 +48,7 @@ const About = () => {
             <p className="text-1xl tracking-tight text-gray-500">
               Responsible for the development of a "t-shirt designer" web
               application for a medium-sized screen-printing and embrodiery
-              company.
+              company using Express and Angular.
             </p>
             <p className="text-1xl tracking-tight mt-6">
               Quillen Astrophysics Lab - Research Assistant

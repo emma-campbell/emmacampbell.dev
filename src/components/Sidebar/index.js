@@ -1,19 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 import sidebarStyles from "./sidebar.module.css"
 
 const StyledBar = styled.div`
-  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-100%)'};
-  z-index: ${({open}) => (open ? "10" : "-1")}
-  display: ${({ open }) => (open ? "none" : "flex")};
+  transition: all 0.3s ease-in-out;
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  display: ${({ open }) => (open ? "block" : "none")};
+  visibility: ${({ open }) => (open ? "visible" : "hidden")};
 `;
 
-const Sidebar = ({open}) => {
+const Sidebar = ({open, setOpen}) => {
   return (
-    <StyledBar open={open}>  
-      <div className="h-screen lg:block-4 shadow-lg relative w-64">
+    <StyledBar open={open} aria-hidden={!open}>  
+      <div className="h-screen lg:block-4 shadow-lg relative w-64 my-12 md:my-0">
         <div className="h-full rounded-2xl">
           <div className="ml-6 pt-6 pb-10">
             <Link to="/">
@@ -37,6 +39,11 @@ const Sidebar = ({open}) => {
       </div>
     </StyledBar>
   )
+}
+
+Sidebar.propTypes = {
+  open: PropTypes.bool.isRequired,
+  setOpen: PropTypes.func.isRequired
 }
 
 export default Sidebar;
