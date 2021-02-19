@@ -24,14 +24,14 @@ const Layout = ({ children }) => {
   if (detectMobileAndTablet(windowWidth)) {
     navigation = (
       <>
-        <div className="block md:hidden">
+        <div className="block md:hidden z-50">
           <header>
             <Navbar open={open} setOpen={setOpen} />
           </header>  
         </div>
         
         
-        <div className="h-screen sticky top-0">
+        <div className="h-screen sticky top-0 z-40">
           <Sidebar open={open} setOpen={setOpen}/>
         </div>
       </>
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
     navigation = (
       <>
         <div className="hidden md:block">
-          <div className="h-screen sticky top-0">
+          <div className="h-screen sticky top-0 z-40">
             <Sidebar open={!open} setOpen={setOpen}/>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
       {navigation}
 
       {/* Main Content */}
-      <main className="w-screen h-screen absolute md:relative md:overflow-hidden z-0">{children}</main>
+      <main className="w-screen h-screen relative md:relative md:overflow-hidden z-0">{children}</main>
     </div>
   )
 }

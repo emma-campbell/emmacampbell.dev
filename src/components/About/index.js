@@ -4,7 +4,7 @@ import Headshot from "../../images/me.jpg"
 
 const About = () => {
   return (
-    <div className="h-screen flex items-center justify-center my-36 md:my-0">
+    <div className="h-screen flex items-center justify-center my-40 md:my-0">
       <div className="max-w-xl p-8 md:p-0">
         <div className="sm:text-center lg:text-left">
           <h1 className="text-6xl tracking-tight">
