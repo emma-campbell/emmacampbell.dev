@@ -44,7 +44,7 @@ const Coursework = () => {
             />
             <Card
               title="Human-Computer Interaction"
-              description="A interdisiplinary approach to building large scale applications. Dives into research techniques required for NeedFining"
+              description="A interdisiplinary approach to building large scale applications. Dives into research techniques required for NeedFinding and Iterative Design."
             />
             <Card
               title="Artifical Intelligence"
