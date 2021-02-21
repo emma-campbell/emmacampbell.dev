@@ -19,13 +19,13 @@ const Hero = () => {
           </span>
         </h1>
         <p className="tracking-tight pt-3 text-1xl md:text-2xl lg:text-3xl">
-          <span className="block inline">
+          <span className="text-gray-400 block inline">
             Computer Science student focused in Human-Computer
           </span>
           <br />
         </p>
         <p className="tracking-tight text-1xl md:text-2xl lg:text-3xl">
-          <span className="block inline">Interaction</span>
+          <span className="text-gray-400 block inline">Interaction</span>
         </p>
       </div>
     </div>

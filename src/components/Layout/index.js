@@ -13,7 +13,7 @@ if (typeof window !== "undefined") {
 const StyledMain = styled.div`
   margin: 0;
   padding: 0;
-  transform: ${({ open }) => open ? 'translateX(-100%)' : 'translateX(0)'};
+  transform: ${({ open }) => open ? 'translateX(16rem)' : 'translateX(0)'};
   filter: ${({ open }) => (open ? "blur(10px)" : "blur(0px)")};
 `
 

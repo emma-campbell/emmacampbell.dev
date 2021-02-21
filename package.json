@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/hind": "^4.2.1",
+    "@fontsource/montserrat": "^4.2.1",
     "autoprefixer": "^10.1.0",
     "framer-motion": "^3.2.2-rc.1",
     "gatsby": "^2.26.1",

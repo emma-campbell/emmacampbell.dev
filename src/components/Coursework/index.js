@@ -44,11 +44,13 @@ const Coursework = () => {
             />
             <Card
               title="Human-Computer Interaction"
-              description="A interdisiplinary approach to building large scale applications. Dives into research techniques required for NeedFinding and Iterative Design."
+              description="A interdisiplinary approach to building large scale applications, learning the ways in which humans interact with computers in order to build effective interfaces."
+              languages="Python, C#, Javascript"
             />
             <Card
               title="Artifical Intelligence"
               description="Introduces fundamental Artificial Intelligence techniques and principles such as heuristic search, automated reasoning, handling uncertainity, and machine learning."
+              languages="Java, Python"
             />
           </div>
         </div>
