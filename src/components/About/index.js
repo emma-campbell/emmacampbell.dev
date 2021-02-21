@@ -62,8 +62,8 @@ const About = () => {
               <span className="block inline">other skills</span>
             </p>
             <p className="text-1xl tracking-tight text-gray-500">
-              Git, Docker, SQLite, MySQL, Express, React, Angular, Bulma, Vue,
-              Flask, Gatsby
+              Git, Docker, SQLite, MySQL, Express, React, Bulma, Vue,
+              Flask, Gatsby, Tailwind
             </p>
           </div>
         </div>
