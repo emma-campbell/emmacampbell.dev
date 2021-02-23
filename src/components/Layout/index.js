@@ -63,7 +63,7 @@ const Layout = ({ children }) => {
       {navigation}
 
       {/* Main Content */}
-      <div className="w-screen h-screen relative overflow-y-scroll md:overflow-hidden z-0">
+      <div className="w-screen h-screen relative overflow-y-scroll z-0">
         <StyledMain>
           {children}
         </StyledMain>
