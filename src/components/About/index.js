@@ -37,7 +37,7 @@ const About = () => {
               <span className="block inline">languages</span>
             </p>
             <p className="text-1xl tracking-tight  text-gray-500">
-              C, Python, Java, Javascript
+              C, Python, Java, Javascript, HTML, CSS
             </p>
             <p className="text-1xl tracking-tight font-bold mt-6">
               <span className="block inline">experiences</span>
