@@ -8,3 +8,8 @@
   Personal Portfolio Website
 </h1>
 
+<div align="center">
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/01db25eb-1d09-4afc-a55a-a7ca07beca99/deploy-status)](https://app.netlify.com/sites/practical-albattani-1a48f1/deploys)
+
+</div>
