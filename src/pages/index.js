@@ -2,7 +2,10 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
+
 import Hero from "../components/Hero"
+import Wave from "../components/Wave"
+import About from "../components/About"
 
 const IndexPage = () => (
   <Layout>
@@ -10,8 +13,11 @@ const IndexPage = () => (
       <meta charSet="utf-8" />
       <title>Emma Campbell</title>
     </Helmet>
-    <Hero />
+    <Hero/>
+    <Wave/>
+    <About/>
   </Layout>
 )
 
 export default IndexPage
+
