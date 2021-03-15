@@ -9,6 +9,8 @@ const StyledWave = styled.div`
 `
 
 const StyledArrow = styled.div`
+  padding-top: 0;
+  margin-top: 0;
   height: 20vh;
   display: flex;
   justify-content: center;
