@@ -7,7 +7,10 @@ module.exports = {
     colors: {
       black: "#273036",
       gray: colors.coolGray,
-      white: colors.white
+      white: colors.white,
+      blue: {
+        100: "#6EC2C8",
+      },
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],

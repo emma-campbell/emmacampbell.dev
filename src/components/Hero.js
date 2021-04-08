@@ -1,5 +1,4 @@
 import React from "react"
-import styled from "styled-components"
 
 const Hero = () => {
   return (
@@ -28,7 +27,17 @@ const Hero = () => {
             <span className="text-gray-400 block inline">Interaction</span>
           </p>
         </div>
-        
+        <div class="flex items-center justify-center pt-2 md:justify-end space-x-4">
+          <a href="https://github.com/emma-campbell">
+            <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">Github</button>
+          </a>
+          <a href="https://www.linkedin.com/in/ec-campbell/">
+            <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">Linkedin</button>
+          </a>
+          <a href="https://drive.google.com/file/d/1_xccNiXLW_O744iJG-m-Hls0WGQDAreR/view?usp=sharing">
+            <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   )

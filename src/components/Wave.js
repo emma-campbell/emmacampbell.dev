@@ -32,7 +32,7 @@ const Wave = () => {
       </svg>
       <StyledArrow>
         <a href="/#about">
-          <img src={Arrow} class="w-8 h-8"/>
+          <img src={Arrow} class="w-8 h-8" alt="arrow"/>
         </a>
       </StyledArrow>
     </StyledWave>

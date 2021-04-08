@@ -4,7 +4,7 @@ import Logo from "../images/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow fixed w-full">
+    <nav className="bg-white shadow fixed w-full z-50">
       <div class="max-w-6xl mx-auto px-8">
         <div class="flex items-center justify-between h-16">
           <a class="flex-shrink-0" href="/">
