@@ -31,13 +31,12 @@ const About = () => {
             <div class="flex-col text-left space-x-4">
               <h1 class="pl-4 pb-2 text-3xl font-bold">about</h1>
               <p class="pb-2 text-sm text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I grew up wanting to be an astronaut. The idea of space,
+              extraterrestrial planets, and rockets enamored me. However, as I
+              began to mature I found that I was claustrophobic. My dreams of
+              being an astronaut were nixed, but luckily, I found software. Ever since 
+              I have been coding whatever I can, whenever I can, and have been pursuing
+              a B.A. in Computer Science.
               </p>
               <p class="text-md font-bold">
                 If you're looking for a hardworking, creative thinker and
@@ -69,13 +68,12 @@ const About = () => {
           <h1 class="pb-2 text-3xl font-bold">about</h1>
           <div class="text-center">
             <p class="pb-2 text-sm text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I grew up wanting to be an astronaut. The idea of space,
+              extraterrestrial planets, and rockets enamored me. However, as I
+              began to mature I found that I was claustrophobic. My dreams of
+              being an astronaut were nixed, but luckily, I found software. Ever since 
+              I have been coding whatever I can, whenever I can, and have been pursuing
+              a B.A. in Computer Science.
             </p>
             <p class="text-md font-bold pb-2">
               If you're looking for a hardworking, creative thinker and problem
