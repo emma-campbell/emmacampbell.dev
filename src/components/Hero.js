@@ -1,14 +1,16 @@
 import React from "react"
 
+import HeroStyles from "../styles/hero.module.css";
+
 const Hero = () => {
   return (
     <div className="h-3/6 flex items-center justify-center pb-0 mb-0">
-      <div class="max-w-6xl pt-32">
+      <div className="max-w-6xl pt-32">
         <div className="text-center md:text-left">
           <h1 className="text-5xl lg:text-6xl tracking-tight">
             <span className="block inline">
               Hello{" "}
-              <span role="img" aria-label="wave">
+              <span role="img" aria-label="wave" className={HeroStyles.wave}>
                 👋
               </span>
             </span>
