@@ -10,11 +10,12 @@ module.exports = {
       white: colors.white,
       blue: {
         100: "#6EC2C8",
+        200: "#45AFB3"
       },
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
-      hind: ["Hind", "sans-serif"]
+      lato: ["Lato", "sans-serif"]
     }
   },
   variants: {

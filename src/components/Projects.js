@@ -1,4 +1,5 @@
 import React from "react"
+import styled from "styled-components"
 
 import EmmaCampbell from "../images/emmacampbell.dev.png"
 import Othello from "../images/othello.png"
@@ -7,6 +8,14 @@ import CSPSolver from "../images/csp-solver.png"
 import SimpleBMPFilter from "../images/BMPFilter.png"
 import Matrix2048 from "../images/matrix-2048.png"
 
+
+const Card = styled.div`
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+`
+
 const Projects = () => {
   return (
     <div id="projects" class="flex-col items-center justify-center pb-24">
@@ -14,7 +23,7 @@ const Projects = () => {
         <div class="text-center">
           <h1 class="text-4xl font-bold pb-12">projects</h1>
           <div class="sm:flex flex-wrap justify-center items-center text-center gap-8 space-y-8">
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64 m-auto">
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64 m-auto">
               <img alt="eggs" src={EmmaCampbell} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
                 <a href="https://github.com/emma-campbell/emmacampbell.dev">
@@ -55,8 +64,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
+            </Card>
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64 m-auto">
               <img alt="eggs" src={Othello} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
                 <a href="https://github.com/emma-campbell/othello">
@@ -95,8 +104,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
+            </Card>
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
               <img alt="eggs" src={ParkTest} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
                 <a href="https://sites.google.com/u.rochester.edu/park-vizualization/home">
@@ -138,8 +147,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
+            </Card>
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
               <img alt="eggs" src={CSPSolver} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
               <a href="https://github.com/emma-campbell/csp-solver">
@@ -179,8 +188,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
+            </Card>
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
               <img alt="eggs" src={SimpleBMPFilter} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
               <a href="https://github.com/emma-campbell/simple-bmp-filter">
@@ -217,8 +226,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
+            </Card>
+            <Card className="overflow-hidden shadow-lg rounded-2xl h-90 w-64  m-auto">
               <img alt="eggs" src={Matrix2048} class="rounded-t-lg" />
               <div class="bg-white w-full p-4 relative">
               <a href="https://github.com/emma-campbell/matrix-2048">
@@ -258,7 +267,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Card>
           </div>
         </div>
       </div>
