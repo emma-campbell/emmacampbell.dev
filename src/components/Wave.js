@@ -1,8 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-import Arrow from "../images/down-arrow.svg"
-
 const StyledWave = styled.div`
   position: relative;
   padding-top: 0;

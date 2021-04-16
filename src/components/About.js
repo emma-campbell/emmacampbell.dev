@@ -1,20 +1,6 @@
 import React from "react"
-import styled from "styled-components"
 
 import HeadShot from "../images/me.jpg"
-import Arrow from "../images/down-arrow.svg"
-
-const StyledArrow = styled.div`
-  padding-top: 0;
-  margin-top: 0;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #273036;
-  position: relative;
-  margin: auto;
-`
 
 const About = () => {
   return (
@@ -46,8 +32,8 @@ const About = () => {
             </div>
           </div>
           <div class="flex justify-end">
-            <a href="#contact">
-              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white">
+            <a href="/#contact">
+              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white hover:bg-blue-200">
                 Contact
               </button>
             </a>
@@ -82,8 +68,8 @@ const About = () => {
             </p>
           </div>
           <div class="flex items-center justify-center">
-            <a href="#contact">
-              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white">
+            <a href="/#contact">
+              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white hover:bg-blue-200">
                 Contact
               </button>
             </a>

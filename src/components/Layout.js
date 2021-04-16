@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Navbar from "./Navigation"
 
-import { detectMobileAndTablet, isSSR } from "../utils"
+import { isSSR } from "../utils"
 
 if (typeof(window) !== "undefined") {
   require("smooth-scroll")('a[href*="#"]')

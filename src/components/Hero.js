@@ -34,17 +34,17 @@ const Hero = () => {
         <fadeInDiv>
           <div class="flex items-center justify-center pt-2 md:justify-end space-x-4">
             <a href="https://github.com/emma-campbell">
-              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">
+              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white hover:bg-blue-200">
                 Github
               </button>
             </a>
             <a href="https://www.linkedin.com/in/ec-campbell/">
-              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">
+              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white hover:bg-blue-200">
                 Linkedin
               </button>
             </a>
             <a href="https://drive.google.com/file/d/1_xccNiXLW_O744iJG-m-Hls0WGQDAreR/view?usp=sharing">
-              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white">
+              <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-medium text-white hover:bg-blue-200">
                 Resume
               </button>
             </a>
