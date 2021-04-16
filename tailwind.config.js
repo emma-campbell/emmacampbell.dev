@@ -14,7 +14,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
-      hind: ["Hind", "sans-serif"]
+      lato: ["Lato", "sans-serif"]
     }
   },
   variants: {

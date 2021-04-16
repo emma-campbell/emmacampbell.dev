@@ -5,6 +5,6 @@
 
 @layer base {
   p {
-    @apply font-hind;
+    @apply font-lato;
   }
 }

@@ -16,11 +16,11 @@ import "@fontsource/montserrat/800.css"
 import "@fontsource/montserrat/900.css" 
 
 // FONT FACE -- Hind
-import "@fontsource/hind/300.css" 
-import "@fontsource/hind";
-import "@fontsource/hind/500.css" 
-import "@fontsource/hind/600.css" 
-import "@fontsource/hind/700.css" 
+import "@fontsource/lato/300.css" 
+import "@fontsource/lato";
+import "@fontsource/lato/400.css" 
+import "@fontsource/lato/700.css" 
+import "@fontsource/lato/900.css" 
 
 import './src/styles/global.css';
 

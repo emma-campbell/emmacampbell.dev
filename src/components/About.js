@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div
       id="about"
-      class="bg-black flex flex-col items-center justify-center pt-24"
+      class="bg-black flex flex-col items-center justify-center pt-24 pb-24"
     >
       {/* DESKTOP */}
 
@@ -48,7 +48,7 @@ const About = () => {
           <div class="flex justify-end">
             <a href="#contact">
               <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white">
-                CONTACT
+                Contact
               </button>
             </a>
           </div>
@@ -84,19 +84,12 @@ const About = () => {
           <div class="flex items-center justify-center">
             <a href="#contact">
               <button class="bg-blue-100 py-2 px-4 rounded-full text-center text-base text-lg font-bold text-white">
-                CONTACT
+                Contact
               </button>
             </a>
           </div>
         </div>
       </div>
-
-      {/* DOWN ARROW */}
-      <StyledArrow>
-        <a href="/#projects">
-          <img src={Arrow} class="w-8 h-8" alt="arrow" />
-        </a>
-      </StyledArrow>
     </div>
   )
 }
