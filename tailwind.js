@@ -234,8 +234,8 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
-      'ubuntu': ['ubuntu', 'sans-serif'],
-      'open-sans': ['open-sans', 'sans-serif'],
+      'ubuntu': ['Ubuntu', 'sans-serif'],
+      'open-sans': ['Open Sans', 'sans-serif'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
