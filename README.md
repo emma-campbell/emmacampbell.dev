@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://emmacampbell.dev">
-    <img alt="Emma Campbell" src="https://github.com/emma-campbell/emmacampbell.dev/blob/react/src/assets/banner-img.png" width="60" />
+    <img alt="Emma Campbell" src="https://github.com/emma-campbell/emmacampbell.dev/blob/react/src/assets/banner-img.png" width="300" />
   </a>
 </p>
 <h1 align="center">
