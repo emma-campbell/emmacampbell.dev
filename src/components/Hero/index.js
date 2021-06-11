@@ -52,7 +52,7 @@ const BannerImage = styled.img.attrs({
 
 const Hero = () => {
   return (
-    <StyledHero>
+    <StyledHero id="hero">
       <Slant>
         {" "}
         {/* SVG SLANT */}
