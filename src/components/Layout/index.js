@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Navigation from "../Navigation";
 
 const StyledLayout = styled.div.attrs({
-    className: 'w-full h-screen'
+    className: 'w-full h-screen bg-white'
 })``;
 
 const Layout = ({children}) => {
