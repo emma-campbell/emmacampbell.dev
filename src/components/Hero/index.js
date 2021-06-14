@@ -7,20 +7,27 @@ import BannerImg from "../../assets/banner-img.png";
 // =============================================================================
 
 const StyledHero = styled.section.attrs({
-  className: "bg-green-light pt-24 flex justify-center",
-})``;
+  className: "bg-green-light pt-24",
+})`
+  position: relative;
+`;
 
 const HeroContent = styled.div.attrs({
-  className: "max-w-7xl flex items-center justify-center space-x-4",
+  className: "max-w-7xl m-auto flex items-center justify-center space-x-8",
 })``;
 
 const Slant = styled.div.attrs({
-  className: "bg-green-light w-full absolute bottom-12",
+  className: "bg-green-light h-full",
 })`
   & svg {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 10vw;
     fill: #f2f8fd;
+    & polygon {
+      width: 100%;
+    }
   }
 `;
 
@@ -31,28 +38,35 @@ const HeroText = styled.div.attrs({
 const ButtonLinks = styled.div.attrs({
   className: "flex pt-6 justify-between w-1/2",
 })`
-  & svg {
-    height: 75%;
-    width: auto;
-  }
+    & svg {
+        height: 80%;
+        width: auto;
+    }
 `;
 
 const BannerImage = styled.img.attrs({
-  className: "h-100 z-30",
+  className: "h-110 z-30",
 })``;
 // =============================================================================
 
 const Hero = () => {
   return (
     <StyledHero id="hero">
+      <Slant>
+        {" "}
+        {/* SVG SLANT */}
+        <svg viewBox="0,0,100,100" preserveAspectRatio="none">
+          <polygon width="100%" points="0,80 100,20 100,100 0,100" />
+        </svg>
+      </Slant>
       <HeroContent>
         <HeroText>
           {/* BANNER TEXT */}
           <h1 className="text-6xl text-white">Hi, my name is Emma!</h1>
-          <p className="text-xl font-light text-white">
+          <p className="text-2xl font-light text-white">
             Developer focused on engineering highly beautiful and
           </p>
-          <p className="text-xl font-light text-white">
+          <p className="text-2xl font-light text-white">
             functional web experiences.
           </p>
           {/* BANNER LINKS */}
@@ -139,13 +153,6 @@ const Hero = () => {
         </HeroText>
         <BannerImage src={BannerImg} alt="banner-img" />
       </HeroContent>
-      <Slant>
-        {" "}
-        {/* SVG SLANT */}
-        <svg viewBox="0,0,100,100" preserveAspectRatio="none">
-          <polygon points="0,65 100,20 100,100 0,100" />
-        </svg>
-      </Slant>
     </StyledHero>
   );
 };
