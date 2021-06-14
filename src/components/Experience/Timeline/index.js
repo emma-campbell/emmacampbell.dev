@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Timeline = () => {
   return (
     <div class="flex-col">
-      <div class="border-2-2 absolute border-opacity-60 border-white h-full border"></div>
+      <div class="border-2-2 absolute border-opacity-60 border-white h-1/2 border"></div>
       <div class="flex items-center w-full">
         <div class="z-20 flex items-center bg-white w-4 h-4 rounded-full"></div>
         <div class="px-6 py-4">

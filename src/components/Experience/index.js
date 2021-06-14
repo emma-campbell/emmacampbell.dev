@@ -6,11 +6,11 @@ import HeaderImg from "../../assets/my-experience.png";
 import Timeline from "./Timeline";
 
 const StyledExperience = styled.section.attrs({
-  className: "bg-green-light max-w-7xl w-full flex items-center justify-center",
+  className: "bg-green-light flex justify-center items-center",
 })``;
 
 const Content = styled.div.attrs({
-  className: " ",
+  className: "max-w-7xl flex justify-center items-center space-x-6",
 })``;
 
 const HeaderImage = styled.img.attrs({
@@ -20,8 +20,10 @@ const HeaderImage = styled.img.attrs({
 const Experience = () => {
   return (
     <StyledExperience>
-      <HeaderImage src={HeaderImg} alt="My Experiences" />
-      <Timeline />
+      <Content>
+        <HeaderImage src={HeaderImg} alt="My Experiences" />
+        <Timeline />
+      </Content>
     </StyledExperience>
   );
 };
