@@ -6,7 +6,7 @@ const StyledNav = styled.nav.attrs({
 })``;
 
 const NavigationContent = styled.div.attrs({
-  className: "max-w-8xl mx-auto px-8 flex items-center justify-between h-20",
+  className: "mx-auto px-8 flex items-center justify-between h-20",
 })``;
 
 const Links = styled.div.attrs({
