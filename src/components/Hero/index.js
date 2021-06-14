@@ -39,7 +39,7 @@ const ButtonLinks = styled.div.attrs({
   className: "flex pt-6 justify-between w-1/2",
 })`
     & svg {
-        height: 80%;
+        height: 75%;
         width: auto;
     }
 `;
@@ -47,6 +47,7 @@ const ButtonLinks = styled.div.attrs({
 const BannerImage = styled.img.attrs({
   className: "h-110 z-30",
 })``;
+
 // =============================================================================
 
 const Hero = () => {
